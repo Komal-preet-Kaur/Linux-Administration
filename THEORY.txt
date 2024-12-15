@@ -1,0 +1,7 @@
+THEORY:
+
+2 Types of interfaces:
+CLI :(Command Line Interface) 
+GUI :(Grafical User Interface)
+
+Windows use GUI mostly but Ubuntu uses both

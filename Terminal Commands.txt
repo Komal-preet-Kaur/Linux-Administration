@@ -1,0 +1,35 @@
+Ubuntu VM terminal commands:
+
+1) ls : gives the list of all the directories and files present in the working directory
+2)pwd : (Present Working Directory) Tells the user about the directory he/she is working in presently
+3)touch : used to create an empty file
+	eg- touch abc.txt
+	to make multiple files at the same time we write as :
+		touch a.txt b.txt c.cpp e.py 
+ 
+4)cat : to know the content of the file
+5)nano : to write into the file
+6)vim : to write into the file
+7)mkdir : to create an empty directory 
+	eg- touch folder121  
+	to make multiple directories at the same time we write as :
+		mkdir Hello Komal Folder1  
+8)ls -l : 
+9)ls -lart:
+10)sudo su : su-->super user (root user) 
+11)cd : (relative path) change directory
+12)cd .. : to go back to previous directory 
+13)cd / :(absolute path) to go back directy out of all the directories
+14)mv :(move) to move file from one directory to another
+	Syntax:
+		mv hello.txt folder12
+		moves hello.txt to folder12
+15)cp : to copy contents of file from one file to another
+	Syntax:
+		cp abc.txt hello.txt
+		copies contents of abc to hello
+
+
+
+ 
+
