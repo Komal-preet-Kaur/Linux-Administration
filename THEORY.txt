@@ -1,7 +1,77 @@
 THEORY:
+-------
 
+Linux is an open-source operating system. It is like Windows, Mac, Android, etc.
+
+Unix is also an operating system like Linux. It is an commercial OS. It consists of three parts: Kernal, Shell and Programs. Most of the Unix and Linux commands are similar in nature.
+-----------------
+Design of Linux OS:
+Linux kernel, a monolithic kernel which manages file systems, peripheral access, networking, and process control. Device drivers are either directly integrated with the kernel or included as modules loaded while the device is active.
+Bootloader, for instance, systemd-boot, SYSLINUX, LILO, and GNU GRUB. It is a program that can load the Linux kernel into the main memory of the computer by being run by the computer after the firmware login is performed and when it's turned on.
+
+-----------------
+User interface:
+The user interface is called a shell.
 2 Types of interfaces:
-CLI :(Command Line Interface) 
-GUI :(Grafical User Interface)
+	CLI :(Command Line Interface) 
+	GUI :(Grafical User Interface)
+The default user interface is graphical for desktop systems. However, the CLI is available by terminal emulator windows or on an isolated virtual console.
+Command-line interface shells are text-based UIs, which utilize text for both output and input. The dominant shell is the bash (Bourne-Again Shell) used in Linux, originally designed for the GNU project. Almost every low-level component of Linux, including several userland parts, exclusively use the CLI. Particularly, the CLI is compatible with delayed or repetitive task automation and gives very easy inter-process communication.
+
+----------------------------------------
 
 Windows use GUI mostly but Ubuntu uses both
+
+bios- basic input output  system
+booting: loading bios in Linux
+
+In windows we use command prompt and shell , in Linux we use terminal
+
+-------------------------
+Uses of Linux OS
+
+Web Services
+Laptops and desktops
+Mobile devices
+Film production
+Government use
+
+--------------------
+Linux OS Working
+
+Every Linux distribution is based on the Linux kernel but can differ based on factors like:
+Kernel version
+kernel modules
+configuration options
+
+-----------------
+Pros and Cons of Linux OS
+
+Pros-->
+Open Source 
+Reliability
+Licensing Cost
+Backward Compatibility
+Several Choices
+
+Cons-->
+Lack of standard
+Support Costs
+Proprietary Software
+Steep Learning Curve
+Unsupported Hardware
+-----------------------------
+
+Linux Bash
+
+The Linux Bash is also known as 'Bourne-again Shell.' It is a command language interpreter for the Linux based system. It is a replacement of Bourne shell (sh)
+
+The Bash is a command language interpreter as well as a programming language. It supports variables, functions, and flow control, like other programming languages. It can also read and execute the commands from a file, which is called a shell script.
+
+People often get confused between bash, shell, and shell script.
+
+What is Shell
+
+
+
+File System 

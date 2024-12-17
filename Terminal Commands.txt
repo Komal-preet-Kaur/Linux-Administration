@@ -28,6 +28,8 @@ Ubuntu VM terminal commands:
 	Syntax:
 		cp abc.txt hello.txt
 		copies contents of abc to hello
+16)whoami : ubuntu tells who is working presently 
+17)history : lists all the commands which the user has used 
 
 
 
