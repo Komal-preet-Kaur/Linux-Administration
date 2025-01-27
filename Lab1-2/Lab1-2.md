@@ -10,6 +10,9 @@ command to create all three subdirectories at the same time.
 
 Screenshots of lab:
 ![alt text](lab1-2.png)
+![alt text](1.2-1.png)
 
+Output screenshot:
 
+![alt text](output-1.png)
 
