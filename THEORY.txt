@@ -72,6 +72,25 @@ People often get confused between bash, shell, and shell script.
 
 What is Shell
 
+The terminal contains the shell; it allows us to execute the commands to interact with the system. We can perform various operations such as store and retrieve data, process information, and various other simple as well as complex tasks.
 
+------------------
+Scripting:
 
-File System 
+Suppose we are required to execute some basic commands every day, for example above four commands. Linux supports a feature called scripting that allows us to execute more than one task at once. So, it is good to define a script rather than performing repetitive tasks.
+
+* To define a script, create a file with a .sh extension.
+	eg- >vi tasks.sh  
+	 (enter the tasks now which on th evi editor
+
+	date  
+	cal  
+	pwd  	
+	ls  
+After entering the tasks, press ESC and :wq! Keys to save and exit from the editor.
+
+Now, make the created file as executable, use the chmod command with +x option
+>chmod +x tasks.sh 
+
+Our script is created and now to execute it pre define it with './'
+>./task.sh  
