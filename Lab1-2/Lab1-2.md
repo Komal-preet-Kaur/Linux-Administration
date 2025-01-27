@@ -9,7 +9,7 @@ subdirectories friends, family, and work. Use a single
 command to create all three subdirectories at the same time. 
 
 Screenshots of lab:
-![Image Description](Screenshots-of-commands-practiced/lab1-2.png)
+![alt text](lab1-2.png)
 
 
 
