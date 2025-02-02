@@ -6,7 +6,15 @@ Preserve only the first four characters of the first column.
 
 Commands on the terminal:
 
-![alt text](nano_editor.png)
-![alt text](nano_edited.png)
+1) Created a editing_final_lab.txt file and added content . lab_file shell variable is created
 ![alt text](image.png)
+
+
+2) Opened the nano editor .
+![alt text](nano_editor.png)
+
+3) Deleted the last 7 characters from the first column and only first four characters are preserved from first colmn
+
+![alt text](nano_edited.png)
+
 
