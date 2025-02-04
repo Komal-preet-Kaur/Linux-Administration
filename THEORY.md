@@ -81,7 +81,7 @@ Suppose we are required to execute some basic commands every day, for example ab
 
 * To define a script, create a file with a .sh extension.
 	eg- >vi tasks.sh  
-	 (enter the tasks now which on th evi editor
+	 (enter the tasks now which on th evi editor)
 
 	date  
 	cal  
@@ -94,3 +94,35 @@ Now, make the created file as executable, use the chmod command with +x option
 
 Our script is created and now to execute it pre define it with './'
 >./task.sh  
+
+
+---------------------------------
+File System Structure and Discription:
+![alt text](structure.png)
+![alt text](discription.png)
+
+There are two paths to navigate to a file system:
+1) Absolute Path-> always begins with a "/". This indicates that the path starts at the root directory .
+eg- cd /var/log/samba
+2) Relative Path->Does not begins with a "/". It identifies a location relative to your current position .
+eg- cd /var
+	cd log
+	cd sambha
+
+--------------------------------------
+WildCard:
+Is a character that can be used as a substitute for any of a class of a character in a search
+* ->represents a zero or more characters
+	eg- if there are 3 files like abc1 , abc2 abc3 
+	if we want to deleate all we can write abc* and all after abc name will deleate no need to write all one by one
+
+? ->represents a single character 
+[] -> represents a range of characters
+{} ->
+eg touch abcd{1..9} -xyz  9 files will be created of name abcd_xyz
+
+\ ->as an escape character
+
+^ -> the begining of the line
+
+$ -> the end of the line 
