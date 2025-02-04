@@ -126,3 +126,34 @@ eg touch abcd{1..9} -xyz  9 files will be created of name abcd_xyz
 ^ -> the begining of the line
 
 $ -> the end of the line 
+
+-------------------------------
+Linux - hostname, reboot, clear command
+hostname command in Linux is used to obtain the DNS(Domain Name System) name and set the system’s hostname or NIS(Network Information System) domain name. A hostname is a name which is given to a computer and it is attached to the network. Its main purpose is to uniquely identify over a network.
+Syntax to use hostname is
+$ hostname [options] 
+
+
+reboot 
+reboot command is used to restart or reboot the system. In a Linux system administration, there comes a need to restart the server after the completion of some network and other major updates. It can be of software or hardware that are being carried on the server. 
+Syntax for using the reboot command is 
+$ reboot [options]
+Following options are available
+
+     --help      Show this help
+     --halt      Halt the machine
+  -p,--poweroff  Switch off the machine
+     --reboot    Reboot the machine
+  -f,--force     Force immediate halt/power-off/reboot
+  -w,--wtmp-only Don't halt/power-off/reboot, just write wtmp record
+  -d,--no-wtmp   Don't write wtmp record
+     --no-wall   Don't send wall message before halt/power-off/reboot
+
+
+clear
+Clear command is a standard command in that is used to clear the terminal screen
+Syntax to use it is
+$ clear
+
+
+---------------------------------

@@ -1,6 +1,6 @@
 Ubuntu VM terminal commands:
 
-1) ls : gives the list of all the directories and files present in the working directory
+1)ls : gives the list of all the directories and files present in the working directory
 2)pwd : (Present Working Directory) Tells the user about the directory he/she is working in presently
 3)touch : used to create an empty file
 	eg- touch abc.txt
@@ -30,8 +30,37 @@ Ubuntu VM terminal commands:
 		copies contents of abc to hello
 16)whoami : ubuntu tells who is working presently 
 17)history : lists all the commands which the user has used 
+18)cal :used to see the calendar of a specific month or a whole year.It will display a calendar.
+	the year.
 
+	It supports many options, some of them are as below: -
+	   -j  (Julian) Displays a Julian calendar. a calendar that numbers the days consecutively from January   1 (1) through December 31 (365 or 366).
+	   -y (year) Displays a calendar for the current year.
+	   -3 (three months) Displays the previous, current, and next months.
+19) date: used to displays or sets the system time and date.It has following syntax: 
+		date [options] [+format]
+		date [options] [newdate]
+These format specifiers are:
+Specifier: 	Description
+%D: 		Display date as mm/dd/yy.    
+%d: 		Display the day of the month (01 to 31).    
+%a: 		Displays the abbreviated name for weekdays (Sun to Sat).
+%A: 		Displays full weekdays (Sunday to Saturday).
+%h: 		Displays abbreviated month name (Jan to Dec).
+%b: 		Displays abbreviated month name (Jan to Dec).
+%B: 		Displays full month name(January to December).
+%m: 		Displays the month of year (01 to 12).
+%y: 		Displays last two digits of the year(00 to 99).
+%Y: 		Display four-digit year. 
+%T: 		Display the time in 24 hour format as HH:MM:SS.
+%H: 		Display the hour.
+%M: 		Display the minute.
+%S: 		Display the seconds.
 
+These specifiers can be used as
+$date +%[format_option]
 
- 
-
+20)whatis: used to get a one-line manual page description.This command search for the manual pages names and show the manual page description of the specified filename or argument.
+21) uptime :used to find out the time for which the system has been in active(running) state. 
+22)free: displays the total amount of free space available along with the amount of memory used and swap memory in the system, and also the buffers used by the kernel. 
+23)tty: prints the file name of the terminal connected to standard input. tty is short for teletype
