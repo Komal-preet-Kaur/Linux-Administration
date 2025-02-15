@@ -1,6 +1,10 @@
 Ubuntu VM terminal commands:
 
 1)ls : gives the list of all the directories and files present in the working directory
+	ls -l :Displays detailed information, including permissions, size, and
+		   modification date.
+	ls -a: Includes hidden files (files starting with .).
+	ls -h: Displays file sizes in human-readable format.
 2)pwd : (Present Working Directory) Tells the user about the directory he/she is working in presently
 3)touch : used to create an empty file
 	eg- touch abc.txt
@@ -61,6 +65,27 @@ These specifiers can be used as
 $date +%[format_option]
 
 20)whatis: used to get a one-line manual page description.This command search for the manual pages names and show the manual page description of the specified filename or argument.
-21) uptime :used to find out the time for which the system has been in active(running) state. 
+21)uptime :used to find out the time for which the system has been in active(running) state. 
 22)free: displays the total amount of free space available along with the amount of memory used and swap memory in the system, and also the buffers used by the kernel. 
 23)tty: prints the file name of the terminal connected to standard input. tty is short for teletype
+
+24)man: provides the detail information of a particualr command 
+	eg- man chmod -> it provides all the details of the chmod command 
+
+25)more: 1 page at a time 
+26)less: Allows for paginated viewing of large files.
+	 Space: Scroll forward one page.
+	 b: Scroll backward one page.
+	 q: Quit.
+27)head: front lines 	//head -5 first 5 lines 
+28)tail : last line eg-> tail -10 // last 10 lines 
+29)diff -> compares files line-by-line
+30)cmp: compares files byte-by-byte
+31)who: tells how many people are logged in and their userid, terminal id and the time they were logged in 
+32)last: gives details of alll the users with their logged time 
+33)uname:
+34)which: tells ocation
+35)rm: deletes files and directories
+	▪ rm -r: Deletes directories and their contents recursively.
+	▪ rm -i: Prompts before each deletion.
+	▪ rm -f: Forces deletion without confirmation.

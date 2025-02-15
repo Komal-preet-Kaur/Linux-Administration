@@ -95,7 +95,10 @@ Now, make the created file as executable, use the chmod command with +x option
 Our script is created and now to execute it pre define it with './'
 >./task.sh  
 
-
+Differences Between Terminal, Shell, and Kernel
+• Terminal: The graphical or text-based interface where users type commands.
+• Shell: The program that interprets the commands (e.g., Bash, Zsh, Fish).
+• Kernel: The core of the operating system that directly interacts with hardware.
 ---------------------------------
 File System Structure and Discription:
 ![alt text](structure.png)
@@ -157,3 +160,63 @@ $ clear
 
 
 ---------------------------------
+
+File Permissions:
+UNIX is a multi-suer system. Every file and directory in your account can be protected from or made accessible to other users by changing its access permissions. Every user has reposnibility for controlling access to their files.
+
+Permissions for a file or directory may be restricted to by types 
+There are 3 type of permissions :
+r- read 
+w- write
+x-execute
+
+Each permission(rwx) can be controlled at 3 levels :
+-u: user
+-g: group
+-o: others
+
+File/ Directory permission can be displayed by running ls-l command
+-rwxrwxrwx
+Commmand to change permission :
+>chmod
+
+
+//to remove a permission :
+eg -rw-r-xrwx 
+
+// to remove r permission from others :
+> chmod o-r
+
+//to remove w from user 
+>chmod u-w
+
+//to give x permission to user 
+>chmod u+x
+
+//remove r permission for all
+>chmod a-r
+-----------------------------
+File OwnerShip Permissions: 
+
+-------------------------
+Writing into a file:
+> vi fileName
+> fileName << "hskahiajlia"
+>fileName <"dsfksijflsl"
+
+
+
+
+Process management in Linux involves monitoring, controlling, and terminating processes running on the system.
+kill command is used to terminate a process, it sends signal to terminate 
+syntax - kill PID
+some signals are :
+sigkill->forcefull termination
+sighup->reloads the process configuration
+sigterm-> terminate a process
+
+
+pkill - terminates a process by its name
+killall- kills all the processes by name 
+
+
