@@ -4,10 +4,12 @@ Experiment:
 3) Use redirection operators to store the output of commands.
 
 Terminal commands and screenshots:
+
 1) Shell Script for system information:
    Shell scripts are used to automate commands and processes in a Unix/Linux environment. A script can be written to retrieve various system details such as the kernel version,
    CPU architecture, memory usage, disk space, and system uptimeCommon commands like uname -a, df -h, free -m, and uptime are used to gather system information.
    The shell script provides a quick way to retrieve and display important system details with a single command, saving time and effort for system administrators.
+   
 
 ![image](https://github.com/user-attachments/assets/14c52239-1c37-4643-85e6-6700cd8da4ce)
 
@@ -15,8 +17,12 @@ Terminal commands and screenshots:
 
 2) Basic mathematical calculation:
    Shell scripting can also be used to perform mathematical calculations. The script can take input values and use built-in operations such as addition, subtraction, multiplication, and division.
+   
+Code:
 
-![image-2](https://github.com/user-attachments/assets/9d3737c9-ae04-4aeb-9ba7-f51f7928c539)
+![cal1](https://github.com/user-attachments/assets/8eba29dc-a190-4926-8ac9-4899593392e3)
+![cal2](https://github.com/user-attachments/assets/5739afd0-1ed5-4dc1-b596-2cc6d90379bb)
+
 
 Output:
 
@@ -28,4 +34,9 @@ Output:
 Redirection in shell scripts is used to control where the output of a command goes. By default, the output is displayed on the terminal, but redirection allows for it to be sent to a file or another command.
 The > operator is used to redirect output to a file, while >> appends the output to an existing file. For example, command > output.txt will store the result of the command in the file output.txt.
 This is useful for logging, saving output for later analysis, or passing information to other processes.
+
+![part3](https://github.com/user-attachments/assets/9bf19506-c269-4066-81dd-5bbc55753869)
+
+![part312](https://github.com/user-attachments/assets/7ad82c68-9a21-4942-a03a-1bd316bc8cf5)
+
 
