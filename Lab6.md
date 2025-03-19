@@ -14,6 +14,7 @@ Terminal commands and screenshots:
 ![1 1](https://github.com/user-attachments/assets/14c42efa-2d96-4575-80dd-350ce4f31ad5)
 
 Verifying that user exits:
+
 ![image](https://github.com/user-attachments/assets/e6761587-3c07-4d86-96b9-a4fc7df35903)
 
 The passwd command is used to set or change a user's password.
